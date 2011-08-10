@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                MySQL-Replication
-version:             0.01
+version:             0.0.2
 abstract:            Decentralised, peer-to-peer, multi-master MySQL replication
 license:             perl
 author:              
@@ -11,6 +11,7 @@ requires:
     AnyEvent:                      0
     base:                          0
     bigint:                        0
+    Class::Accessor:               0
     constant:                      0
     DBI:                           0
     Errno:                         0
